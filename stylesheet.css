@@ -3,11 +3,19 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
+.pokemon-image {
+    width: 320px;
+    height: 320px;
+}
+
 .banner {
- max-width: 320px;
- display: flex;
- justify-content: center;
- padding: 40px;
+    max-width: 120px;
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -53,5 +61,6 @@ button:hover {
     font-size: 18px;
     color: darkgreen;
     font-family: monospace;
-    padding-left: 120px;
+    padding-left: 40px;
+    width: 320px;
 }
