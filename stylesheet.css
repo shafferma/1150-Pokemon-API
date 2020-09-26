@@ -11,7 +11,7 @@ body {
 }
 
 button {
-    background-image: url('assests/pokemon-ball.png');
+    background-image: url('./assests/pokemon-ball.png');
     background-size: 60px;
     background-repeat: no-repeat;
     /* width: 100px; */
