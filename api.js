@@ -29,9 +29,7 @@ function getAndDisplayRandomPokemon() {
             pokemonImage.src = data.sprites.other['official-artwork'].front_default
             
             pokemonNumber.textContent = data.id
-
             console.log(data.name)
-            
             pokemonName.textContent = data.name
         
             for (index in data.types) {
@@ -43,17 +41,13 @@ function getAndDisplayRandomPokemon() {
                 console.log(typeObject.type.name)
                 //console.log(type.name)
 
-
                 while (pokemonType.firstChild) {  
                     pokemonType.removeChild(pokemonType.firstChild); 
                 }
-
                 let span = document.createElement('span'); 
                 span.textContent = typeObject.type.name;  
                 pokemonType.appendChild(span);
-
             }
-            
         })
 }
 //so we don't get decimals - whole number
