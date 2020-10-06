@@ -9,6 +9,7 @@ const pokemonType = document.querySelector('#types')
 // console.log({pokemonImage})
 
 catchMeBtn.addEventListener('click', getAndDisplayRandomPokemon);
+// 
 
 function getAndDisplayRandomPokemon() {
     let pokemonId = getRandomPokemonId(151)
